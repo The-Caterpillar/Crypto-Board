@@ -1,6 +1,8 @@
+import { Link } from "react-router";
+
 const CoinCard = ({ coin }) => {
   return (
-    <>
+    <Link to={`/coin/${coin.id}`}>
       <div>
         <div className="coin-card" >
           <div className="coin-header">
@@ -17,7 +19,7 @@ const CoinCard = ({ coin }) => {
           </div>
         </div>
       </div>
-    </>
+    </Link>
   );
 };
 
