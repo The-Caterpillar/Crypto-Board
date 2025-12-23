@@ -37,7 +37,7 @@ const filteredCoins = coins.filter((coin) => {
     return ( <>
     
       <div>
-        <h1>🚀 Crypto Dash </h1>
+        <h1>🚀 Crypto Dashboard </h1>
         {loading && <Loader />}
         {error && <div className="error">{error}</div>}
 
